@@ -1,0 +1,44 @@
+name: flutter_memory_matching_game
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  audioplayers: ^0.20.1
+  flutter_launcher_icons: ^0.9.2
+  change_app_package_name: ^1.0.0
+  flutter_app_name: ^0.1.1
+
+flutter_app_name:
+  name: "Simple Match"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/icon/launcher_icon.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/PNG/Square (outline)/bear.png
+    - lib/assets/PNG/Square (outline)/bear.png
+    - lib/assets/PNG/Square (outline)/chick.png
+    - lib/assets/PNG/Square (outline)/chicken.png
+    - lib/assets/PNG/Square (outline)/duck.png
+    - lib/assets/PNG/Square (outline)/rabbit.png
+    - lib/assets/PNG/Square (outline)/zebra.png
+    - assets/dissapointed.mp3
+    - assets/fairy_dust.mp3
