@@ -21,9 +21,6 @@ out/
 .gradle/
 build/
 
-# flutter
-.packages
-
 # Local configuration file (sdk path, etc)
 local.properties
 
