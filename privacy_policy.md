@@ -51,19 +51,6 @@ For the purposes of this Privacy Policy:
 
 There will be no any form of personal data collected while using this application.
 
-### Law enforcement
-
-Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
-
-### Other legal requirements
-
-The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
-
-- Comply with a legal obligation
-- Protect and defend the rights or property of the Company
-- Prevent or investigate possible wrongdoing in connection with the Service
-- Protect the personal safety of Users of the Service or the public
-- Protect against legal liability
 
 
 
