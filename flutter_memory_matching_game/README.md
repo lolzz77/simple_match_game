@@ -2,7 +2,7 @@
 Versions
 ---------
 1. Flutter SDK - 2.5.3 
-2. Dart (Comes with Flutter SDK) -  2.14.4
+2. Dart - 2.14.4
 3. Gradle - 6.7
 4. Java JDK - 15
 5. Android Studio - 2023.1.1 Patch 2
