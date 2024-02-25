@@ -14,8 +14,9 @@ Versions
 --------
 Setup
 --------
-1. Run `flutter doctor` to ensure everything setup
-2. Run `flutter doctor -v`, take note where the flutter will get the Java binary
+1.Install Android Studio
+2. Run `flutter doctor` to ensure everything setup
+3. Run `flutter doctor -v`, take note where the flutter will get the Java binary
 - Install Java in that directory
 3. `cd simple_match_game\flutter_memory_matching_game\`
 4. `flutter build apk` (I expect it to fail, i need this command to generate `./gradlew` file)
