@@ -14,7 +14,7 @@ Versions
 --------
 Setup
 --------
-1.Install Android Studio
+1. Install Android Studio
 2. Run `flutter doctor` to ensure everything setup
 3. Run `flutter doctor -v`, take note where the flutter will get the Java binary
 - Install Java in that directory
