@@ -31,20 +31,15 @@ Run the app
 4. Chrome browser should open up and the apps should run
 
 ------
-Build the app
+Update version
 ------
-1. In the terminal provided by Android Studio
-2. `flutter build apk`
-3. I expect you to fail at this step, as you need to provide signing file path.
-4. See the next step `Sign the app`
-5. Still got error? See `Additional Info` below
-6. After build success, build an app bundle.
-7. In Android Studio, `build -> flutter -> build app bundle`
-
-![img.png](image/img_3.png)
+Change app version `flutterVersionName and flutterVersionCode` at
+`simple_match_game\flutter_memory_matching_game\android\app\build.gradle`. And also change `version`,
+by changing the number after `+`, at `simple_match_game\flutter_memory_matching_game\pubspec.yaml`.
+Eg: `1.0.0+1` to `1.0.0+2`.
 
 ------
-Sign the app
+Sign the app (Before you can build)
 ------
 1. I have my .jks file in my User Doc .Key folder, reuse that.
 2. You should google this steps, as it will be varying from time to time.
@@ -59,6 +54,21 @@ keyPassword=<password>
 keyAlias=upload
 storeFile=<path\\to\\your\\.jks\\file>
 ```
+
+------
+Build the app (After you did the sign step)
+------
+1. In the terminal provided by Android Studio
+2. `flutter build apk`
+3. I expect you to fail at this step, as you need to provide signing file path.
+4. See the step `Sign the app`
+5. Still got error? See `Additional Info` below
+6. After build success, build an app bundle.
+7. In Android Studio, `build -> flutter -> build app bundle`
+![img.png](image/img_3.png)
+8. Output file location, look for this
+![img.png](img.png)
+9. It will be at your Project directory (eg: Your git repo folder)
 
 ------
 Publish on Google App Store
@@ -149,10 +159,3 @@ created when you run `flutter build apk`.
 
 7. Change Target API version `minimumSdkVersion` & `maximum SdkVersion` & `compileSdkVersion` at 
 `simple_match_game\flutter_memory_matching_game\android\app\build.gradle`.
-
-8. Change app version `flutterVersionName and flutterVersionCode` at 
-`simple_match_game\flutter_memory_matching_game\android\app\build.gradle`. And also change `version`, 
-by changing the number after `+`, at `simple_match_game\flutter_memory_matching_game\pubspec.yaml`. 
-Eg: `1.0.0+1` to `1.0.0+2`.
-
-
